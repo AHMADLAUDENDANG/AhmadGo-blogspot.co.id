@@ -1,0 +1,79 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.ul-navbar {
+background-color: green;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.li-navbar {
+list-style-type: none;
+padding: 20px;
+margin: 5px;
+color: antiquewhite;
+}
+
+#biodata {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+}
+
+.li-navbar:hover {
+    background-color: goldenrod;
+    transition: .5s ease-in-out ;
+    transition-delay: .3s;
+    border-radius: 10px;
+}
+
+.a-navbar {
+    color: aqua;
+    text-decoration: none;
+    font-weight: 800;
+}
+.countainer-content {
+    background-color: #f7f7f7;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-style:oblique;
+}
+
+.a-content {
+    background-color: azure;
+    color: black;
+    text-decoration: none;
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: box-shadow: 34px 38px 21px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 34px 38px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 34px 38px 21px -1px rgba(0,0,0,0.75);;
+}
+
+.img-content {
+    width: 60%;
+    height: 60%;
+}
+
+.countainer-footer {
+    background-color: white
+}
+
+.h1-footer {
+    font-size: large;
+    border: 5px solid black
+}
